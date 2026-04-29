@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>把实验仓库整理成“以后还跑得动”的样子 | letianhello.cn</title>
+  <meta name="description" content="关于如何把实验仓库从能跑一次整理到能持续复现。">
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="../index.html">letianhello.cn</a>
+      <nav class="site-nav">
+        <a href="../index.html#posts">文章</a>
+        <a href="../about.html">关于</a>
+      </nav>
+    </header>
+
+    <main class="article-shell">
+      <p class="post-meta">2026.04.29 · 工程化 / 实验复现</p>
+      <h1>把实验仓库整理成“以后还跑得动”的样子</h1>
+      <p class="lead">实验代码最常见的问题不是第一次跑不出来，而是第二次没人知道该怎么跑。</p>
+
+      <section class="article-body">
+        <p>
+          很多实验仓库在作者脑子里是清楚的，但在文件系统里并不清楚。脚本名字很长、输入输出路径分散、一次性中间产物混在根目录，过两周再回来看，连作者自己都会犹豫到底该执行哪个命令。
+        </p>
+        <p>
+          我最近整理仓库时，最核心的目标不是“更漂亮”，而是“更可解释”。统一入口、固定输出目录、把输入准备和评测收敛到少数脚本里，这些动作表面上只是重命名和搬文件，实际是在降低未来维护成本。
+        </p>
+        <p>
+          我越来越觉得，实验工程化不是附属工作。它决定了你的结论是一次性的，还是能被复查、能被扩展、能被真正比较的。
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p><a href="../index.html">返回首页</a></p>
+    </footer>
+  </div>
+</body>
+</html>
