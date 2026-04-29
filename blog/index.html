@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>letianhello.cn | 乐天的个人博客</title>
+  <meta name="description" content="乐天的个人博客，记录技术、研究、生活与长期主义。">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html">letianhello.cn</a>
+      <nav class="site-nav">
+        <a href="#posts">文章</a>
+        <a href="about.html">关于</a>
+        <a href="mailto:hello@letianhello.cn">联系</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">Personal Blog / GitHub Pages Ready</p>
+        <h1>把研究、代码和日常思考，认真地写下来。</h1>
+        <p class="hero-copy">
+          这里是乐天的个人博客。你可以用它发布技术文章、毕设进展、读书笔记，或者任何值得长期沉淀的内容。
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#posts">开始阅读</a>
+          <a class="button secondary" href="about.html">认识我</a>
+        </div>
+      </section>
+
+      <section class="section-grid">
+        <article class="intro-card">
+          <p class="card-label">站点定位</p>
+          <h2>一个克制、轻量、可长期维护的个人博客。</h2>
+          <p>
+            我保留了纯静态结构，这样可以直接托管到 GitHub Pages，也方便后续迁移到其他平台。
+          </p>
+        </article>
+        <article class="quote-card">
+          <p>“不要只追求更快地产出，也要给自己留下可被回看的痕迹。”</p>
+        </article>
+      </section>
+
+      <section class="section-heading" id="posts">
+        <p class="eyebrow">Latest Notes</p>
+        <h2>最新文章</h2>
+      </section>
+
+      <section class="post-list">
+        <article class="post-card">
+          <p class="post-meta">2026.04.29 · 技术写作</p>
+          <h3><a href="posts/hello-world.html">你好，letianhello.cn</a></h3>
+          <p>第一篇站点文章，介绍这个博客为什么存在，以及之后会写什么。</p>
+        </article>
+        <article class="post-card">
+          <p class="post-meta">2026.04.29 · 研究与工具</p>
+          <h3><a href="posts/build-in-public.html">把项目、实验和思考公开记录</a></h3>
+          <p>如果你在做长期项目，公开写作不是包装，而是一种更严格的自我管理。</p>
+        </article>
+      </section>
+
+      <section class="section-heading">
+        <p class="eyebrow">What Lives Here</p>
+        <h2>这里会持续更新什么</h2>
+      </section>
+
+      <section class="topics">
+        <article class="topic-card">
+          <h3>技术与代码</h3>
+          <p>记录实际项目、工具链经验、踩坑总结，以及你真正验证过的方法。</p>
+        </article>
+        <article class="topic-card">
+          <h3>研究与实验</h3>
+          <p>适合整理毕设、论文阅读、实验设计和阶段性结论，避免思路只停留在本地文件夹里。</p>
+        </article>
+        <article class="topic-card">
+          <h3>生活与判断</h3>
+          <p>旅行、阅读、长期主义、个人选择。博客不是简历，而是一个人的思考痕迹。</p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year">2026</span> 乐天 · Published on GitHub Pages</p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
